@@ -66,7 +66,11 @@ li > a:hover {
 
 .bilde-container {
     height: 500px;
+<<<<<<< HEAD
+    width: 100%;
+=======
     width: 100.61%;
+>>>>>>> 167a2df6f693cc3b5aaa069dadb1cdedc6a8823f
     background-color: grey;
 }
 
@@ -93,7 +97,11 @@ li > a:hover {
 #btn-klikk {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
+    width: 130px;
+=======
     width: 100px;
+>>>>>>> 167a2df6f693cc3b5aaa069dadb1cdedc6a8823f
     height: 30px;
     border-radius: 20px 20px 20px 20px;
     line-height: 33px;
@@ -146,7 +154,7 @@ li > a:hover {
 /* Tekst-container 2 */
 
 .tekst-container2 {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -195,3 +203,35 @@ li > a:hover {
     position: relative;
     top: 18%;
 }
+<<<<<<< HEAD
+
+/* Footer - Kontaktinformasjon */
+
+footer {
+    background-color: rgb(92, 91, 91);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer > div > div > p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+#mailto {
+    color: white;
+    text-decoration: none;
+}
+
+#mailto:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+=======
+>>>>>>> 167a2df6f693cc3b5aaa069dadb1cdedc6a8823f

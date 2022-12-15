@@ -105,3 +105,28 @@ li > a:hover {
     bottom: 130px;
     left: 2%;
 }
+
+.btn-erfaringer {
+    border: 1px solid red;
+    background-color: lightskyblue;
+    width: 8%;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 1.5%;
+}
+
+.btn-erfaringer > a, .btn-ferdigheter > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.btn-erfaringer > a:hover, .btn-ferdigheter > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}

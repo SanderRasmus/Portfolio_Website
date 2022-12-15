@@ -14,18 +14,18 @@ header {
 .logo {
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    gap: 10px;
     margin-left: 20px;
 }
 
 #Sander {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: larger;
+    font-size: 26px;
 }
 
 #Rasmussen {
     font-family: 'Josefin Slab', sans-serif;
-    font-size: larger;
+    font-size: 26px;
 }
 
 
@@ -44,7 +44,7 @@ ul {
 
 li {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 li > a {
@@ -65,7 +65,7 @@ li > a:hover {
 }
 
 .bilde-container {
-    height: 400px;
+    height: 500px;
     width: 100.61%;
     background-color: grey;
 }
@@ -76,6 +76,7 @@ li > a:hover {
     left: 2%;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
 }
 
 .btn-lesom {
@@ -85,17 +86,17 @@ li > a:hover {
 }
 
 #btn-tekst {
-    font-size: 12px;
+    font-size: 18px;
     color: white;
 }
 
 #btn-klikk {
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    width: 80px;
-    height: 20px;
+    width: 100px;
+    height: 30px;
     border-radius: 20px 20px 20px 20px;
-    line-height: 20px;
+    line-height: 33px;
     background-color: lightskyblue;
     text-align: center;
 }
@@ -138,7 +139,7 @@ li > a:hover {
 }
 
 .tekst-container p {
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Alegreya Sans'    ;
 }
 
@@ -151,7 +152,7 @@ li > a:hover {
     flex-direction: row;
     text-align: center;
     gap: 35px;
-    line-height: 12.5px;
+    line-height: 22.5px;
 }
 
 .tekst-container2 > div {
@@ -159,7 +160,7 @@ li > a:hover {
 }
 
 .tekst-container2 p {
-    font-size: 10px;
+    font-size: 16px;
     font-family: 'Alegreya Sans', sans-serif;
 }
 
@@ -167,10 +168,11 @@ li > a:hover {
 
 .ferdigheter-container {
     margin-top: 30px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 40px;
+    gap: 60px;
     height: 200px;
 }
 
@@ -181,5 +183,15 @@ li > a:hover {
 
 #Windows {
     position: relative;
-    top: 37%;
+    top: 45%;
+}
+
+#Adobe {
+    position: relative;
+    top: 35%;
+}
+
+#HtmlCSS {
+    position: relative;
+    top: 18%;
 }

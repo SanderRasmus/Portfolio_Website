@@ -71,9 +71,9 @@ li > a:hover {
 }
 
 .bilde-tekst {
+    text-align: center;
     position: relative;
-    top: 50%;
-    left: 2%;
+    top: 20%;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 34px;
@@ -81,13 +81,17 @@ li > a:hover {
 
 .btn-lesom {
     position: relative;
-    top: 51%;
+    top: 35%;
     left: 2%;
 }
 
 #btn-tekst {
+    text-align: center;
     font-size: 18px;
     color: white;
+    position: relative;
+    left: -36px;
+    top: -70px;
 }
 
 #btn-klikk {
@@ -99,6 +103,9 @@ li > a:hover {
     line-height: 33px;
     background-color: lightskyblue;
     text-align: center;
+    position: relative;
+    left: 44.5%;
+    top: -50px;
 }
 
 #btn-klikk > a {
@@ -114,16 +121,17 @@ li > a:hover {
 .sosiale-medier {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
     position: relative;
-    left: 2.1%;
-    top: 52%;
+    left: -0.4%;
+    top: 26%;
 }
 
 /* Informasjons seksjon - Tekstbokser etc. */
 
 .innhold-section {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .tekst-container {

@@ -63,7 +63,6 @@ li > a:hover {
 /* Bakgrunnsbilde Section */
 
 .tekst-container {
-    border: 2px solid blue;
     height: 500px;
     background-color: grey;
 }
@@ -95,7 +94,6 @@ li > a:hover {
 }
 
 .btn-ferdigheter {
-    border: 1px solid red;
     background-color: lightskyblue;
     width: 8%;
     text-align: center;
@@ -107,7 +105,6 @@ li > a:hover {
 }
 
 .btn-erfaringer {
-    border: 1px solid red;
     background-color: lightskyblue;
     width: 8%;
     text-align: center;

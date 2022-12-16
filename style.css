@@ -67,7 +67,9 @@ li > a:hover {
 .bilde-container {
     height: 500px;
     width: 100%;
-    background-color: grey;
+    background: #ff4b1f;
+    background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);
+    background: linear-gradient(to right, #1fddff, #ff4b1f);     
 }
 
 .bilde-tekst {
@@ -208,7 +210,7 @@ li > a:hover {
 /* Footer - Kontaktinformasjon */
 
 footer {
-    background-color: rgb(92, 91, 91);
+    background: #423f3e; 
 }
 
 footer > div {

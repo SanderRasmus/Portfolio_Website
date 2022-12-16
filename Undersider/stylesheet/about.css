@@ -63,7 +63,7 @@ li > a:hover {
 /* Bakgrunnsbilde Section */
 
 .tekst-container {
-    height: 500px;
+    height: 400px;
     background-color: grey;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ li > a:hover {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
-    margin-top: -160px;
+    margin-top: -80px;
 }
 
 .btn-ferdigheter {
@@ -131,5 +131,57 @@ li > a:hover {
 .btn-erfaringer > a:hover, .btn-ferdigheter > a:hover {
     text-decoration: underline;
     cursor: pointer;
+    font-weight: 600;
+}
+
+/* Flex-container / IMG og Paragrafer */
+
+.flex-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Tekst-boks {
+    font-size: 12px;
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 350px;
+    text-align: center;
+}
+
+#Sander_Portrett {
+    border-radius: 50%;
+}
+
+
+/* Footer - Kontaktinformasjon */
+
+footer {
+    background-color: rgb(92, 91, 91);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer > div > div > p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+#mailto {
+    color: white;
+    text-decoration: none;
+}
+
+#mailto:hover {
+    text-decoration: underline;
     font-weight: 600;
 }

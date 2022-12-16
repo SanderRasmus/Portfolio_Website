@@ -80,9 +80,8 @@ li > a:hover {
 }
 
 .btn-lesom {
-    position: relative;
-    top: 35%;
-    left: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 #btn-tekst {
@@ -90,8 +89,7 @@ li > a:hover {
     font-size: 18px;
     color: white;
     position: relative;
-    left: -36px;
-    top: -70px;
+    top: 80px;
 }
 
 #btn-klikk {
@@ -103,9 +101,13 @@ li > a:hover {
     line-height: 33px;
     background-color: lightskyblue;
     text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 44.5%;
-    top: -50px;
+    top: 100px;
 }
 
 #btn-klikk > a {
@@ -124,7 +126,6 @@ li > a:hover {
     justify-content: center;
     gap: 20px;
     position: relative;
-    left: -0.4%;
     top: 26%;
 }
 

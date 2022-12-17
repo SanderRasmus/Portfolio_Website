@@ -58,6 +58,10 @@ li > a:hover {
     cursor: pointer;
 }
 
+.active {
+    font-weight: 600;
+}
+
 /* Bildeseksjon */
 
 .bilde-section {

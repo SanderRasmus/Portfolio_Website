@@ -59,6 +59,10 @@ li > a:hover {
     cursor: pointer;
 }
 
+.active {
+    font-weight: 600;
+}
+
 
 /* Bakgrunnsbilde Section */
 

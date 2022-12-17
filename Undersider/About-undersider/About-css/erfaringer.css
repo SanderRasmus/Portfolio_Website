@@ -5,7 +5,6 @@ body {
 }
 
 
-
 /* Header, Logo og Nav*/
 
 header {
@@ -64,22 +63,20 @@ li > a:hover {
     font-weight: 600;
 }
 
-/* Bakgrunn / Overskrifter + Innhold */
+/* Bakgrunn, Overskrift + Innhold */
 
-.Bakgrunn-container{
+.Bakgrunn {
+    background-color: grey;
     width: 100%;
-    height: 400px;
-    background: #ff4b1f;
-    background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);
-    background: linear-gradient(to right, #1fddff, #ff4b1f);
+    height: 380px;
 }
 
-.flex-container-bakgrunn {
+.bakgrunn-flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 80px;
+    top: 70px;
 }
 
 #Bakgrunn-Overskrift {
@@ -89,37 +86,18 @@ li > a:hover {
 }
 
 #Bakgrunn-Innhold {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans';
     font-size: 18px;
     color: white;
 }
 
-/* Prosjekter / Viderekoblinger / Overskrifter */
-
-.linje {
-    height: 1px;
-    background-color: black;
-    width: 500px;
-}
-
-.flex-container-overskrift-media {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#TemaOverskrift {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 23px;
-}
-
-
 /* Footer - Kontaktinformasjon */
 
 footer {
-    margin-top: 410px;
-    background: #423f3e; 
+    margin-top: 100px;
+    background: #423f3e;
+    position: relative;
+    top: 500px; 
 }
 
 footer > div {

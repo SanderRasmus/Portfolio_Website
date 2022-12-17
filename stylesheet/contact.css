@@ -4,8 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 /* Header, Logo og Nav*/
 
 header {
@@ -93,27 +91,6 @@ li > a:hover {
     font-size: 18px;
     color: white;
 }
-
-/* Prosjekter / Viderekoblinger / Overskrifter */
-
-.linje {
-    height: 1px;
-    background-color: black;
-    width: 500px;
-}
-
-.flex-container-overskrift-media {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#TemaOverskrift {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 23px;
-}
-
 
 /* Footer - Kontaktinformasjon */
 

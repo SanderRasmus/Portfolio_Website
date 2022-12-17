@@ -70,7 +70,6 @@ li > a:hover {
     height: 400px;
     background-color: grey;
     background-image: url('../Bilder/About-Bakgrunn2.png');
-    background-size: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -143,6 +142,7 @@ li > a:hover {
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
 }
@@ -150,7 +150,7 @@ li > a:hover {
 .Tekst-boks {
     font-size: 15px;
     font-family: 'Alegreya Sans', sans-serif;
-    width: 350px;
+    width: 430px;
     text-align: center;
 }
 
@@ -162,6 +162,7 @@ li > a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 80px;
 }
 

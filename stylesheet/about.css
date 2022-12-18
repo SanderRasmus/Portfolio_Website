@@ -68,8 +68,8 @@ li > a:hover {
 
 .tekst-container {
     height: 400px;
-    background-color: grey;
-    background-image: url('../Bilder/About-Bakgrunn2.png');
+    background-color: #066398;
+    background-image: linear-gradient(225deg, #066398 0%, #4abdae 100%);    
     display: flex;
     align-items: center;
     flex-direction: column;

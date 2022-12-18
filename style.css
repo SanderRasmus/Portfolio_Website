@@ -97,6 +97,7 @@ li > a:hover {
     position: relative;
     font-family: 'Josefin Sans', sans-serif;
     top: 80px;
+    line-height: 25px;
 }
 
 #btn-klikk {

@@ -101,6 +101,23 @@ li > a:hover {
     width: 500px;
 }
 
+.linje-3 {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 300px;
+    height: 32px;
+    border-radius: 0 0 4% 4%;
+
+}
+
+.MedieProsjekt-bokser {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    position: relative;
+    top: -30px;
+}
+
 .flex-container-overskrift-media {
     margin-top: 60px;
     display: flex;
@@ -111,6 +128,53 @@ li > a:hover {
 #TemaOverskrift {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 23px;
+}
+
+.flex-container-prosjekter {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.flex-container-prosjekter img {
+    border-radius: 4% 4% 0 0;
+}
+
+.MedieProsjektTekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 270px;
+}
+
+.MedieProsjektTekst p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+#StumfilmTekst {
+    position: relative;
+    top: -67px;
+    right: -16px;
+}
+
+#FotostoryTekst {
+    position: relative;
+    top: -67px;
+    right: -9px;
+}
+
+.MedieProsjektTekst a {
+    text-decoration: none;
+    color: black;
+}
+
+.MedieProsjektTekst a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 

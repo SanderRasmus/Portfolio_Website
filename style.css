@@ -95,6 +95,7 @@ li > a:hover {
     font-size: 18px;
     color: white;
     position: relative;
+    font-family: 'Josefin Sans', sans-serif;
     top: 80px;
 }
 

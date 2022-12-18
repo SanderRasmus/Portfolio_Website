@@ -4,42 +4,23 @@ body {
     overflow-x: hidden;
 }
 
-
-
-/* Header, Logo og Nav*/
-
 header {
     margin-top: 20px;
     width: 100%;
     height: 30px;
-    margin-bottom: 30px;
 }
 
-.logo {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-left: 20px;
-}
 
-#Sander {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 26px;
-}
 
-#Rasmussen {
-    font-family: 'Josefin Slab', sans-serif;
-    font-size: 26px;
-}
+/* Navbar */
 
 ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
     list-style: none;
+    display: flex;
     gap: 30px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
     right: 13%;
     bottom: 30px;
 }
@@ -64,16 +45,34 @@ li > a:hover {
     font-weight: 600;
 }
 
-/* Bakgrunn / Overskrifter + Innhold */
-
-.Bakgrunn-container{
-    width: 100%;
-    height: 400px;
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+/* Logo / Venstre Hjørne */
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
 }
 
-.flex-container-bakgrunn {
+#Sander {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+#Rasmussen {
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 26px;
+}
+
+/* Bakgrunn - Seksjon */
+
+.Bakgrunn {
+    margin-top: 30px;
+    background-color: grey;
+    width: 100%;
+    height: 350px;
+}
+
+.Bakgrunn-flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,31 +92,36 @@ li > a:hover {
     color: white;
 }
 
-/* Prosjekter / Viderekoblinger / Overskrifter */
+/* Mediaplayer / Youtube video*/
 
-.linje {
-    height: 1px;
-    background-color: black;
-    width: 500px;
-}
-
-.flex-container-overskrift-media {
+.Video-container {
     margin-top: 60px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#TemaOverskrift {
+.linje {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    top: -20px;
+}
+
+.Video-container > div > p {
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
     font-size: 23px;
 }
+
 
 
 /* Footer - Kontaktinformasjon */
 
 footer {
-    margin-top: 410px;
+    margin-top: 100px;
     background: #423f3e; 
 }
 

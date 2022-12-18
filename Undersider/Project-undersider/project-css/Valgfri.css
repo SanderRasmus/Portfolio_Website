@@ -93,6 +93,103 @@ li > a:hover {
     color: white;
 }
 
+/* Overskrift + Bilder */
+
+.container-overskrift {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Overskrift {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.linje {
+    width: 400px;
+    height: 2px;
+    background-color: black;
+}
+
+.bilde-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.bilde-container img {
+    width: 450px;
+}
+
+/* Tekst Bokser + Last ned funksjon + Tilbake */
+
+.flex-container-tekst {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.flex-container-tekst > div {
+    width: 450px;
+}
+
+.flex-container-tekst p {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+.flex-container-viderekobling {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Viderekobling-nedlastning {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Viderekobling-nedlastning a, .Viderekobling-Tilbake a {
+    text-decoration: none;
+    color: black;
+}
+
+.Viderekobling-nedlastning a:hover, .Viderekobling-Tilbake a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Viderekobling-nedlastning p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.Viderekobling-Tilbake {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Viderekobling-Tilbake p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+
 /* Footer - Kontaktinformasjon */
 
 footer {

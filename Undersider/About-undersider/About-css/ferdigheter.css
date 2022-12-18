@@ -66,8 +66,7 @@ li > a:hover {
 /* Bakgrunn, Overskrift + Innhold */
 
 .Bakgrunn {
-    background-color: grey;
-    width: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);    width: 100%;
     height: 380px;
 }
 
@@ -91,28 +90,178 @@ li > a:hover {
     color: white;
 }
 
+
+/* OS - Bilder + Tekstinnhold */
+
+.TemaOverskrift {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.OS-Linje {
+    width: 690px;
+    height: 2px;
+    background-color: black;
+}
+
+.flex-container-OSWindows {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+    position: relative;
+    left: -370px;
+}
+
+.flex-container-OSMac {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+    position: relative;
+    top: -56px;
+    right: -160px;
+
+}
+
+.flex-container-OSWindows img, .flex-container-OSMac img, .flex-container-HTML img, .flex-container-CSS img {
+    height: 50px;
+    width: 50px;
+}
+
+.flex-container-OSWindows p, .flex-container-OSMac p, .flex-container-HTML p, .flex-container-CSS p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.flex-container-OSKompetanseTekst, .flex-container-ApplikasjonerTekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    gap: 200px;
+}
+
+.flex-container-OSKompetanseTekst div, .flex-container-ApplikasjonerTekst div, .flex-container-ProgrammeringTekst div {
+    width: 350px;
+}
+
+.flex-container-OSKompetanseTekst p, .flex-container-ApplikasjonerTekst p, .flex-container-ProgrammeringTekst p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* Applikasjoner - Bilder + Innhold */
+
+.Applikasjon-linje {
+    width: 690px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.flex-container-Adobe {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    position: relative;
+    justify-content: center;
+    left: -358px;
+}
+
+.flex-container-Office365 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+    position: relative;
+    top: -56px;
+    right: -230px;
+}
+
+.flex-container-Adobe p, .flex-container-Office365 p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.flex-container-Adobe img, .flex-container-Office365 img {
+    width: 50px;
+    height: 57px;
+}
+
+/* Programmering Seksjon - Bilde + Innhold */
+
+.linje {
+    display: flex;
+    justify-content: center;
+}
+
+.Programmering-linje {
+    width: 690px;
+    height: 2px;
+    background-color: black;
+}
+
+.flex-container-HTML {
+    margin-top: 45px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    left: -400px;
+}
+
+.flex-container-CSS {
+    margin-top: 45px;
+    position: relative;
+    top: -100px;
+    right: -150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+}
+
+.flex-container-ProgrammeringTekst {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    top: -80px;
+    gap: 202px;
+}
+
+
 /* Tilbake knapp */
 
 .flex-container-button {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 #Return-btn {
     position: relative;
-    top: 670px;
-    right: 50px;
+    right: -600px;
 }
 
 
 /* Footer - Kontaktinformasjon */
 
 footer {
-    margin-top: 100px;
+    margin-top: 0px;
     background: #423f3e;
     position: relative;
-    top: 500px; 
+    top: 100px; 
 }
 
 footer > div {

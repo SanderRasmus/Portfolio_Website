@@ -69,8 +69,9 @@ li > a:hover {
 .Bakgrunn-container{
     width: 100%;
     height: 400px;
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    background: linear-gradient(to right, #19547b, #ffd89b);
 }
 
 .flex-container-bakgrunn {
@@ -92,6 +93,99 @@ li > a:hover {
     font-size: 18px;
     color: white;
 }
+
+/* Overskrift Container */
+
+.flex-container-overskrift {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linje {
+    width: 500px;
+    height: 2px;
+    background-color: black;
+}
+
+#Overskrift {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Bilder */
+
+.flex-container-bilder {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.flex-container-bilder img {
+    width: 600px;
+}
+
+/* Tilbake knapp */
+
+.flex-container-viderekobling {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Viderekobling-nedlastning  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Viderekobling-Tilbake {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-container-viderekobling {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.flex-container-viderekobling a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-container-viderekobling a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Seksjon - Tekst container */
+
+.flex-container-tekst {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 240px;
+}
+
+.flex-container-tekst div {
+    width: 400px;
+    text-align: center;
+}
+
+.flex-container-tekst p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 
 /* Footer - Kontaktinformasjon */
 

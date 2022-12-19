@@ -69,8 +69,9 @@ li > a:hover {
 .Bakgrunn-container{
     width: 100%;
     height: 400px;
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background: #114357;
+    background: -webkit-linear-gradient(to right, #F29492, #114357);
+    background: linear-gradient(to right, #F29492, #114357);
 }
 
 .flex-container-bakgrunn {

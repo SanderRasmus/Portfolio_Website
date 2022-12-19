@@ -243,15 +243,29 @@ li > a:hover {
 
 /* Tilbake knapp */
 
-.flex-container-button {
+.flex-container-viderekobling {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
 }
 
-#Return-btn {
+.flex-container-viderekobling a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-container-viderekobling a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.flex-container-viderekobling p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
     position: relative;
-    right: -600px;
+    top: -3px;
 }
 
 
